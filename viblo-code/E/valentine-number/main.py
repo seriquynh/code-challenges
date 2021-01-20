@@ -19,13 +19,9 @@ def solution(m):
     else:
         print('NO')
 
-# input_str = ""
+input_str = ""
 
-# for line in sys.stdin:
-#     input_str += line
-
-# input_str = '14144'
-# input_str = '1414141414144141414'
-input_str = '11114'
+for line in sys.stdin:
+    input_str += line
 
 solution(input_str)
